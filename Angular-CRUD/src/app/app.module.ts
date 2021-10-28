@@ -10,13 +10,15 @@ import { EditarEmpleadoComponent } from './components/editar-empleado/editar-emp
 import { ListarEmpleadoComponent } from './components/listar-empleado/listar-empleado.component';
 
 import { SharedModule } from './shared/shared/shared.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    BrowserAnimationsModule
   ],
   declarations: [
     AppComponent,
