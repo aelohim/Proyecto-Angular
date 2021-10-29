@@ -1,1 +1,19 @@
-<h1>Proyecto Angular</h1>
+<h1>Angular Proyecto</h1>
+<div class="cont">
+  <mat-toolbar>
+    <span>My Application</span>
+    <button mat-raised-button>
+      <a mat-raised-button routerLink="agregar-empleado">Primary</a>
+    </button>
+    <button mat-raised-button color="accent">
+      <a mat-raised-button routerLink="listar-empleado">Accent</a>
+    </button>
+    <button mat-raised-button color="warn">
+      <a mat-raised-button routerLink="editar-empleado">Warn</a>
+    </button>
+  </mat-toolbar>
+</div>
+<div class="container">
+  Contenido
+  <router-outlet></router-outlet>
+</div>
